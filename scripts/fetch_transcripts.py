@@ -4,10 +4,16 @@ Each transcript is saved as transcripts/day-XXX-<slug>.md. Videos that already h
 file are skipped, so the script can be re-run safely to fill gaps. Failures are listed
 in transcripts/FAILED.md.
 
-Run locally:  pip install youtube-transcript-api && python scripts/fetch_transcripts.py
+Run locally:  pip install youtube-transcript-api && python scripts/fetch_transcripts.py [--limit N]
+
+YouTube temporarily blocks an IP that asks for too many transcripts. To stay under the radar the
+script waits 8-15 s between videos, fetches at most --limit videos per run (default 25), and stops
+at the first block instead of hammering. If you get blocked, wait a few hours and run it again.
 """
 
+import argparse
 import csv
+import random
 import re
 import sys
 import time
@@ -58,12 +64,18 @@ def to_markdown(row: dict, snippets: list, language: str) -> str:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--limit", type=int, default=25, help="max videos to fetch this run")
+    args = parser.parse_args()
+
     with open(OUT / "videos.tsv", newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f, delimiter="\t"))
 
     api = YouTubeTranscriptApi()
     done_ids = set()
     failed = []
+    fetched_count = 0
+    blocked = False
     for row in rows:
         vid = row["video_id"]
         if not vid or vid in done_ids:
@@ -72,15 +84,22 @@ def main() -> int:
         path = OUT / f"day-{int(row['day']):03d}-{slugify(row['title'])}.md"
         if path.exists():
             continue
+        if blocked or fetched_count >= args.limit:
+            continue
         try:
             fetched = api.fetch(vid, languages=LANGS)
             snippets = [{"text": s.text, "start": s.start} for s in fetched.snippets]
             path.write_text(to_markdown(row, snippets, fetched.language_code), encoding="utf-8")
+            fetched_count += 1
             print(f"ok    day {row['day']:>3}  {vid}  {path.name}")
         except Exception as e:  # keep going; record the failure
             failed.append((row, f"{type(e).__name__}: {str(e).splitlines()[0][:150]}"))
             print(f"FAIL  day {row['day']:>3}  {vid}  {type(e).__name__}", file=sys.stderr)
-        time.sleep(1.5)  # be gentle with YouTube
+            if type(e).__name__ in ("IpBlocked", "RequestBlocked"):
+                blocked = True
+                print("\nYouTube is blocking this connection. Stopping now; try again in a few hours.")
+                continue
+        time.sleep(random.uniform(8, 15))  # be gentle with YouTube
 
     report = ["# Transcripts that could not be fetched", ""]
     if failed:
@@ -90,7 +109,13 @@ def main() -> int:
     else:
         report.append("None.")
     (OUT / "FAILED.md").write_text("\n".join(report) + "\n", encoding="utf-8")
-    print(f"\nfetched/skipped: {len(done_ids) - len(failed)}, failed: {len(failed)}")
+    first_rows = {}
+    for r in rows:
+        if r["video_id"]:
+            first_rows.setdefault(r["video_id"], r)
+    missing = sum(1 for r in first_rows.values()
+                  if not (OUT / f"day-{int(r['day']):03d}-{slugify(r['title'])}.md").exists())
+    print(f"\nfetched this run: {fetched_count}, failed: {len(failed)}, still missing: {missing}")
     return 0
 
 
