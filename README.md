@@ -9,6 +9,8 @@ chapters, practice questions and interview questions, tagged by topic and level.
 ```text
 roadmap/   the full roadmap, organised from Manish Kumar's "data engineer roadmap 2026" video
 notes/     one chapter per lecture, grouped by topic (python/, sql/, spark/, ...)
+transcripts/  auto-generated lecture transcripts, one file per video (private study copy only)
+scripts/   fetch_transcripts.py, run by the GitHub Action to download transcripts
 CLAUDE.md  workflow instructions so any Claude session (desktop or mobile) can continue the work
 ```
 
@@ -43,4 +45,4 @@ Every chapter follows the same template so it can be turned into a web page late
 
 Roadmap and lecture content: [Manish Kumar](https://www.youtube.com/@manish_kumar_1) and
 [DataPathsala](https://datapathsala.com). These are personal study notes written from his lectures;
-lecture transcripts are not included in this repository.
+the transcripts in `transcripts/` are a private study copy and must not be published.

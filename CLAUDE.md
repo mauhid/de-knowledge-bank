@@ -14,12 +14,17 @@ learning website, so keep them consistent.
 
 ## Getting the lecture content
 
-1. Preferred: the YouTube auto-generated Hindi transcript ("Show transcript" under the video
-   description). It only loads when the browser is visible.
-2. If no transcript can be fetched, ask Mohsin to paste it, or (with his OK) draft the chapter
-   from the day's topic and mark it clearly as "written without the transcript" so it can be
-   checked against the lecture later.
-3. Never commit transcripts to the repo (they are Manish's content). Commit only our notes.
+1. First look in `transcripts/`: files are named `day-XXX-<lecture-slug>.md` and hold the
+   YouTube auto-generated transcript (mostly Hindi) with timestamp links. `transcripts/videos.tsv`
+   maps every roadmap day to its videos. These were fetched by the GitHub Action
+   `fetch-transcripts.yml` (re-run it from the Actions tab to fill gaps; `transcripts/FAILED.md`
+   lists any that failed).
+2. If a transcript is missing, try the YouTube "Show transcript" panel in a browser (it only
+   loads when the browser is visible), or ask Mohsin to paste it, or (with his OK) draft the
+   chapter from the day's topic and mark it clearly as "written without the transcript".
+3. Transcripts are kept only because this repo is private, for personal study. They are the
+   creators' content: never copy them into the notes, never publish them on the website, and
+   if this repo is ever made public, delete `transcripts/` first.
 
 ## Writing a chapter
 

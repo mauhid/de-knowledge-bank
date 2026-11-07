@@ -1,0 +1,186 @@
+day	video_id	channel	title
+1	c6yJF8jzAO8	Manish Kumar	Introduction | Python Zero to Hero
+1	Yvx1g2FG0dw	Manish Kumar	How to Install Python on Windows 11
+1	lDOqn1oZQcg	Manish Kumar	How to Install VS Code on Windows 11
+2	mvZyb9LUqnU	Manish Kumar	Variable & Data Type in Python | Lec-4
+3	3loGlDd6ldU	Manish Kumar	String Formatting & Escape Sequence | Lec-5
+4	PPMuP66sqbg	Manish Kumar	Operators, Type Casting & User Input | Lec-6
+5	mS5kP5MC6Gg	Manish Kumar	If Else in Python | Lec-7
+6	3v9f_KCCkrM	Manish Kumar	List in Python | Lec-8
+7	f5OHlEfKqeI	Manish Kumar	List in Python Part-2 | Lec-9
+8	5J_xH6X-qGw	Manish Kumar	For Loop in Python Part-1 | Lec-10
+9	2pYUYDblNpk	Manish Kumar	For Loop in Python Part-2 | Lec-11
+10	5lqHqsaLp7Q	Manish Kumar	While Loop in Python | Lec-12
+10	yH1zCq-iaeU	Risabh Mishra	What Is SQL? | SQL Introduction
+11	wuE0HYShYjw	Manish Kumar	List Comprehension in Python | Lec-13
+11	HmH-76_2Ak8	Risabh Mishra	Data Types, Primary-Foreign Keys & Constraints
+12	BqcBuVTNGY8	Manish Kumar	Dictionary in Python | Lec-14
+12	v-2cIUgx_jw	Risabh Mishra	Create Table & Create Database in SQL
+13	h4vXWJeU2Fw	Manish Kumar	Dictionary Comprehension in Python | Lec-15
+13	4YAAgrm8_ZI	Risabh Mishra	INSERT, UPDATE, DELETE & ALTER Table in SQL
+14	EZvvMDxALYI	Manish Kumar	Tuple in Python | Lec-16
+14	eiLqDeDp7Oc	Risabh Mishra	SELECT Statement & WHERE Clause with Operators
+15	Dh5Ze3l4uH4	Manish Kumar	Set in Python | Lec-17
+15	rfWYbMd3ApA	Risabh Mishra	How to Import Excel/CSV to SQL
+16	GpIaG7DWjeM	Manish Kumar	String in Python | Lec-18
+16	55_UN5gVARs	Risabh Mishra	String Functions in SQL
+17	vHdYSIstOfo	Manish Kumar	Top 20 Interview Questions in Python | Lec-19
+17	9NfthspfXEo	Risabh Mishra	Aggregate Functions — COUNT, SUM, AVG, MAX, MIN
+18	qpKqRvoUV0Q	Manish Kumar	.join() Method in Python | Lec-20
+18	SvJLXj05cow	Risabh Mishra	GROUP BY and HAVING Clause in SQL
+19	-h8W0ibxyvI	Manish Kumar	Function in Python | Lec-21
+19	kwGh6XvLrEk	Risabh Mishra	Timestamp and Date Functions in SQL
+20	OieEdZ8gQzQ	Manish Kumar	*args and **kwargs in Python | Lec-22
+20	H6988OpZKTU	Risabh Mishra	Complete SQL JOINs for Beginners
+21	7IetvNtiCbw	Manish Kumar	Error Handling in Python | Lec-23
+21	V3xjmBi1QQE	Risabh Mishra	SELF JOIN | UNION & UNION ALL in SQL
+22	IPFhvsvwQL8	Manish Kumar	Configuration File Handling in Python | Lec-24
+22	5O2OuN1ougU	Risabh Mishra	Complete SQL Subquery with Examples
+23	BWdUwBgzVt4	Manish Kumar	AES Encryption in Python | Lec-25
+23	S1do1EeA7ng	Risabh Mishra	Window Functions — RANK, DENSE_RANK, ROW_NUMBER, LEAD/LAG
+24	rpWi9qtxbxI	Manish Kumar	MySQL Installation on Windows 11 | Lec-26
+24	n_0kijUi7IA	Risabh Mishra	SQL CASE Statement with Examples
+25	jq0BMpumUaw	Manish Kumar	Database Connection in Python | Lec-27
+25	WHBH0yz35_8	Risabh Mishra	SQL WITH Clause | CTE (Common Table Expression)
+26	QUxJ97oL-co	Manish Kumar	How to Write Clean Code in Python | Lec-28
+26	Rp3EcF9nx6U	Risabh Mishra	Recursive CTE | Recursive SQL Queries
+27	Pd3nFpctN0Y	Manish Kumar	How to Write Clean Code in Python | Lec-29
+27	VFIuIjswMKM	Risabh Mishra	Portfolio Project — Music Store Data Analysis
+28	xJMXGz9t6-0	Manish Kumar	OOPs in Python Part-1 | Lec-30
+28	9gHIiuyySws	Risabh Mishra	Most Asked SQL Interview Questions
+29	3XwZCA7S1jw	Manish Kumar	OOPs in Python Part-2 | Lec-31
+29	5JFrzN6r1KI	Risabh Mishra	SQL Interview Questions — Product Based Company
+30	8_fW955p-3E	Manish Kumar	OOPs in Python Part-3 | Lec-32
+30	rsubrskHQ4s	Manish Kumar	30-Day Programming Challenge — Day 1
+31	mHVtg3JjnHY	Manish Kumar	OOPs in Python Part-4 | Lec-33
+31	3b34ZOgT2A4	Manish Kumar	30-Day Programming Challenge — Day 2
+32	gbqy77z-YWk	Manish Kumar	OOPs in Python Part-5 | Lec-34
+32	qC9FFshDvHw	Manish Kumar	30-Day Programming Challenge — Day 3
+33	aSHKBt7NqV0	Manish Kumar	What is an API | Lec-35
+33	ac2x4QXg-48	Manish Kumar	30-Day Programming Challenge — Day 4
+34	dO7H8SE0mlU	Manish Kumar	FastAPI Tutorial Part-1 | Lec-36
+34	fwn9902r32s	Manish Kumar	30-Day Programming Challenge — Day 5
+35	41kKtjIVvMM	Manish Kumar	FastAPI Tutorial Part-2 | Lec-37
+35	lkyfIVevg3s	Manish Kumar	30-Day Programming Challenge — Day 6
+36	O5wX_Tt6StQ	Manish Kumar	FastAPI Tutorial Part-3 | Lec-38
+36	5mTsiek4uHk	Manish Kumar	30-Day Programming Challenge — Day 7
+37	PICOYzr8oqA	Manish Kumar	FastAPI Tutorial Part-4 | Lec-39
+37	dG5kLPxZVPA	Manish Kumar	30-Day Programming Challenge — Day 8
+38	ZX-xf1__-9w	Manish Kumar	Logging in Python | Lec-40
+38	EQzdB1MuEs4	Manish Kumar	30-Day Programming Challenge — Day 9
+39	2_iSqg0rZ70	Manish Kumar	30-Day Programming Challenge — Day 10
+40	PMvvy2_SJJs	Manish Kumar	30-Day Programming Challenge — Day 11
+41	V7S79qTqIMY	Manish Kumar	30-Day Programming Challenge — Day 12
+42	BfXQL-IElBs	Manish Kumar	30-Day Programming Challenge — Day 13
+43	VJIxGliUfZQ	Manish Kumar	30-Day Programming Challenge — Day 14
+44	OmMoBhRaxKA	Manish Kumar	30-Day Programming Challenge — Day 15
+45	a9hj0Aq-Haw	Manish Kumar	30-Day Programming Challenge — Day 16
+46	iLhKUYd5zN8	Manish Kumar	30-Day Programming Challenge — Day 17
+47	Mqt4jxhj3UY	Manish Kumar	30-Day Programming Challenge — Day 18
+48	7azowOMpqGo	Manish Kumar	30-Day Programming Challenge — Day 19
+49	26psHO1uXPE	Manish Kumar	30-Day Programming Challenge — Day 20
+50	IjG7Kz0fCkk	Manish Kumar	30-Day Programming Challenge — Day 21
+51	__GdlFh9MNI	Manish Kumar	30-Day Programming Challenge — Day 22
+52	UBHCvUh1_2A	Manish Kumar	30-Day Programming Challenge — Day 23
+53	M2EAh6NrUaM	Manish Kumar	30-Day Programming Challenge — Day 24
+54	NgPSgIK3vTU	Manish Kumar	30-Day Programming Challenge — Day 25
+55	qOUKPWYdRXc	Manish Kumar	30-Day Programming Challenge — Day 26
+56	TDW-Zr5PyGs	Manish Kumar	30-Day Programming Challenge — Day 27
+57	NKbhk6Gzsxg	Manish Kumar	30-Day Programming Challenge — Day 28
+58	fcA-1m_swjI	Manish Kumar	30-Day Programming Challenge — Day 29
+59	vERA6abihAU	Manish Kumar	30-Day Programming Challenge — Day 30
+61	NpROIkYo634	Manish Kumar	Spark Full Tutorial Series — Overview
+61	xW_GNBDW568	Manish Kumar	Spark Overview | Lec-1
+62	N3vk5i_Hh78	Manish Kumar	Why Apache Spark | Lec-2
+62	_j5LxhHuWFU	Manish Kumar	Create Databricks Community Edition Account
+63	mpMvOPhNtjA	Manish Kumar	Hadoop vs Spark | In Depth Explanation | Lec-3
+63	oNOcCZCgbMg	Manish Kumar	Databricks Community Edition Overview
+64	7x9GXt6-AxU	Manish Kumar	Spark Ecosystem | Lec-4
+64	aDCfzM7Cs7c	Manish Kumar	Read Data in Spark & Read Modes | Lec-3
+65	xJVonk4yxJY	Manish Kumar	Spark Architecture | Lec-5
+65	U3sgM-ohLVE	Manish Kumar	Schema in Spark | Lec-4
+66	wXGhaNGA7KA	Manish Kumar	Handling Corrupted Records in PySpark | Databricks
+66	ce-F5lyFeyk	Manish Kumar	Transformation and Action in Spark
+67	JHm7BkRp3T8	Manish Kumar	DAG and Lazy Evaluation in Spark
+67	M0Kx205dxmM	Manish Kumar	How to Read JSON File in PySpark
+68	VDZ7erjooU0	Manish Kumar	Spark SQL Engine | Lec-8
+68	vWSQIIiS8sg	Manish Kumar	RDD in Spark | Lec-9
+69	HyfGEbaZaX0	Manish Kumar	What is Apache Parquet File | Lec-7
+69	a-YGzAZEt04	Manish Kumar	Write DataFrame to Disk in Spark | Lec-8
+70	bf7_ek6SqJs	Manish Kumar	Partitioning and Bucketing in Spark | Lec-9
+70	o4EfpnTGzvE	Manish Kumar	Spark Session vs Spark Context | Lec-10
+71	wL42r3Fgfsk	Manish Kumar	Spark Job, Stages, Tasks | Lec-11
+71	bRjxZmv0vGw	Manish Kumar	How to Create DataFrame in Spark | Lec-10
+72	qhiWt5ni7yY	Manish Kumar	DataFrame Transformations in Spark | Lec-11
+72	PythD66exVM	Manish Kumar	DataFrame Transformations in Spark | Lec-12
+73	4TAqpta7oJw	Manish Kumar	union vs unionAll | Lec-13 | Spark Interview Q
+73	VJCphHzB4Qk	Manish Kumar	repartition vs coalesce | Lec-12
+74	jJR8pARSRTA	Manish Kumar	if/else in PySpark — when/otherwise/case | Lec-14
+74	f8XslitrpqE	Manish Kumar	Unique & Sorted Records | Lec-15
+75	FtsAOb4B-iY	Manish Kumar	Aggregate Functions — sum, min, max, avg | Lec-16
+75	N8eK-maHqVE	Manish Kumar	groupBy in Spark | Lec-17
+76	BFFOtVX0FXE	Manish Kumar	Join in PySpark | Lec-18
+76	1gm2AdfzsBQ	Manish Kumar	Join in PySpark | Lec-19
+77	ZkJowO83MZ0	Manish Kumar	Spark Join — Sort vs Shuffle | Lec-13
+77	mV-6xM8dJYM	Manish Kumar	Broadcast Join in Spark | Lec-14
+78	NfldkGW-xUQ	Manish Kumar	Window Functions — rank & dense_rank | Lec-15
+78	RHEHewxA4Gg	Manish Kumar	lead and lag in Spark | Window Functions | Lec-16
+79	FNrOnHNzoJI	Manish Kumar	rows between & range between | Window Functions | Lec-17
+79	2Eb9mE7pfgs	Manish Kumar	Driver Out of Memory | Spark Memory Management | Lec-15
+80	b2hO1oJf9nA	Manish Kumar	Executor Out of Memory | Spark Memory Management | Lec-16
+81	hRdS0-6xGBs	Manish Kumar	How to Install PySpark with Docker
+82	sTk1hflzPYc	Manish Kumar	Flatten Nested JSON in Spark | Lec-20
+83	EEq9JxGGEZE	Manish Kumar	Spark Submit | Lec-17
+84	C94-000jh6E	Manish Kumar	Deployment Mode in Spark | Edge Node | Lec-18
+85	-zgdmj_2_gU	Manish Kumar	AQE in Spark | Lec-19
+86	Pw1vn82wEBE	Manish Kumar	Cache and Persist in Spark | Lec-20
+87	_PA86Npk1ck	Manish Kumar	Dynamic Resource Allocation in Spark | Lec-21
+88	H64-pPRbptE	Manish Kumar	Dynamic Partition Pruning in Spark | Lec-22
+89	res3ICaMQTM	Manish Kumar	SCD2 in Spark | Lec-24
+90	gfr81htVMkQ	Manish Kumar	Salting in Spark — Handle Data Skew | Lec-23
+121	FWiwI5DheO0	Manish Kumar	Project Overview | Lec-1
+121	hRdS0-6xGBs	Manish Kumar	How to Install PySpark with Docker — Easiest Setup
+122	pPYjX-9JAQY	Manish Kumar	How to Install PyCharm in Windows | Project Requirements
+122	JEbTIXd61kc	Manish Kumar	How to Install MySQL in Windows | Project Requirements
+123	k7522oZQi9Y	Manish Kumar	How to Create an AWS Account | Project Requirements
+123	GqPnkZoEXVo	Manish Kumar	How to Get Access Key & Secret Key for IAM Role in AWS | Project Requirements
+124	QYhUQa42-9c	Manish Kumar	Understanding the Data for Project-1 | Lec-2
+124	ZzzixC_18WM	Manish Kumar	Pull Code from GitHub for Project-1 | Lec-3
+125	2BiAka8PfMg	Manish Kumar	Connect MySQL Server Using Python | Lec-4
+126	zQnrl7HXEes	Manish Kumar	How to Download and Read Data from S3 | Lec-5
+127	ehv5eacBDI8	Manish Kumar	Schema Validation | Lec-6
+128	kpJkkaHgXcE	Manish Kumar	How to Create a Data Mart | Lec-7
+129	6cn0BbS7px8	Manish Kumar	ETL — Calculate Incentive of Sales Person | Clear Local Directory | Lec-8
+130	C2GP6mtqF4w	Manish Kumar	Spark Local Setup | How to Install Spark in Windows 10
+151	UiTvqSd52ak	Manish Kumar	Data Modelling Course Introduction
+151	g-FCc-NHOsg	Manish Kumar	What is a Data Warehouse? | Lec-1
+151	NQgzOyw8Sz0	Manish Kumar	Why Do We Need a Data Warehouse? | Lec-2
+151	UmywGvVsB4I	Manish Kumar	Data Warehouse vs Data Lake | Lec-3
+152	uOCOgDGBnwk	Manish Kumar	What is a Data Mart? | Lec-4
+152	qOUC1dRuRR0	Manish Kumar	Data Warehouse Internals | Lec-5
+152	k6P-hY3yjqM	Manish Kumar	Data Warehouse Transformations | Lec-6
+152	16BF6cDqLBE	Manish Kumar	Incremental Loads in Data Warehouse | Lec-7
+153	dPmj-9Aoz10	Manish Kumar	Fact Table and Dimension Table | Lec-8
+153	hKEeKWcwleY	Manish Kumar	Dimensional Modelling Fundamentals — How to Build a Fact Table | Lec-9
+153	B8ZTFtQ3gIM	Manish Kumar	Types of Facts in a Fact Table | Lec-10
+153	JvIXkTCXQug	Manish Kumar	Types of Fact Table | Lec-11
+154	kxL4BxWtquI	Manish Kumar	Factless Fact Table | Lec-12
+154	ArWFTgXpYjw	Manish Kumar	Date Dimension Table | Lec-13
+154	cCxKfCDqABg	Manish Kumar	Product Dimension & Snowflake Schema | Lec-14
+154	Ev2OJhL4T1c	Manish Kumar	Types of Dimensions in Data Warehouse | Lec-15
+155	m1SpQPdQpl0	Manish Kumar	Star and Snowflake Schema | Lec-16
+155	rg5aY06H_gw	Manish Kumar	Primary Key and Foreign Key | Lec-17
+155	KVe9aU3G-qs	Manish Kumar	Surrogate Key | Lec-18
+155	jeydG5aj7VA	Manish Kumar	Slowly Changing Dimension (SCD) | Lec-19
+156	1yNIIiQFTAQ	Manish Kumar	Introduction to Airflow | Lec-1
+156	eCj30mfc0bs	Manish Kumar	Airflow Local Setup with Docker | Lec-2
+156	9TvS2Icr2Fc	Manish Kumar	What is a DAG in Airflow? | Lec-3
+157	d0KO_5H-_6g	Manish Kumar	Writing Your First DAG | Lec-4
+157	meMobX2i0D4	Manish Kumar	Airflow Architecture & Internal Workings | Lec-5
+157	R8dX3shQfYs	Manish Kumar	Airflow UI Walkthrough | Lec-6
+158	lwjNLBCtLVA	Manish Kumar	Scheduling in Airflow | Lec-7
+158	bK9pcdN02ac	Manish Kumar	Incremental Loading & Python Operator | Lec-8
+159	1VJ4xXLyEHc	Manish Kumar	Branching and Trigger Rules in Airflow | Lec-9
+159	3FSXuPG1Jp0	Manish Kumar	XCom in Airflow | Lec-10
+160	49Ci6GWyTzg	Manish Kumar	Taskflow API in Airflow | Lec-11
+160	rLnp94WiuW8	Manish Kumar	DAG End-to-End Implementation | Lec-12
