@@ -46,3 +46,4 @@ learning website, so keep them consistent.
 - Add or update the row in the README progress table (status Draft).
 - When Mohsin says a chapter is final, change its status to Final.
 - Commit with a short message, e.g. `Add Python 07: For Loops (Part 1)`.
+- Push directly to `main` (Mohsin's instruction): no feature branches or pull requests.
