@@ -28,7 +28,8 @@ https://datapathsala.com/study-plans/data-engineering-roadmap-ic
 | 5 | if / elif / else | Lec-7 | [04](notes/python/04-if-elif-else.md) | Draft |
 | 6 | Lists, part 1 | [Lec-8](https://youtu.be/3v9f_KCCkrM) | [05](notes/python/05-lists-part-1.md) | Draft |
 | 7 | Lists, part 2 | [Lec-9](https://youtu.be/f5OHlEfKqeI) | [06](notes/python/06-lists-part-2.md) | Draft |
-| 8 | For loops, part 1 (+ DSA: check if array is sorted) | [Lec-10](https://youtu.be/5J_xH6X-qGw) | — | Next |
+| 8 | For loops, part 1 (+ DSA: check if array is sorted) | [Lec-10](https://youtu.be/5J_xH6X-qGw) | [07](notes/python/07-for-loops-part-1.md) | Draft |
+| 9 | For loops, part 2 | [Lec-11](https://youtu.be/2pYUYDblNpk) | — | Next |
 
 Transcripts in `transcripts/` currently cover days 1–29 (50 videos). Fetch more in batches with
 `python scripts/fetch_transcripts.py` from a home connection; YouTube blocks after too many in a row.
