@@ -16,9 +16,9 @@ learning website, so keep them consistent.
 
 1. First look in `transcripts/`: files are named `day-XXX-<lecture-slug>.md` and hold the
    YouTube auto-generated transcript (mostly Hindi) with timestamp links. `transcripts/videos.tsv`
-   maps every roadmap day to its videos. These were fetched by the GitHub Action
-   `fetch-transcripts.yml` (re-run it from the Actions tab to fill gaps; `transcripts/FAILED.md`
-   lists any that failed).
+   maps every roadmap day to its videos. Transcripts are downloaded with
+   `scripts/fetch_transcripts.py`, which must run from a home internet connection (YouTube blocks
+   cloud/GitHub Actions IPs). It skips files that already exist; `transcripts/FAILED.md` lists failures.
 2. If a transcript is missing, try the YouTube "Show transcript" panel in a browser (it only
    loads when the browser is visible), or ask Mohsin to paste it, or (with his OK) draft the
    chapter from the day's topic and mark it clearly as "written without the transcript".
